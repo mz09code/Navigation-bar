@@ -1,5 +1,4 @@
 import Head from "next/head";
-import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
 				<link rel="icon" href="/pro.ico" />
 			</Head>
 			<Navbar />
-			<HeroSection />
+			
 		</div>
 	);
 }
